@@ -14,6 +14,7 @@ export interface Book {
   coverUrl: string;
   description: string;
   tags: string[];
+  readingTime: string; // New field
 }
 
 export interface HistoryEvent {
