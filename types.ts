@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 export enum Category {
   HOME = 'HOME',
@@ -28,5 +28,5 @@ export interface HistoryEvent {
 export interface NavItem {
   id: Category;
   label: string;
-  icon: React.ReactNode;
+  icon: ReactNode;
 }
